@@ -33,7 +33,6 @@ Aplikasi ini dikembangkan untuk memecahkan kendala pada usaha distribusi dan rit
 ---
 
 ## 2. Entity Relationship Diagram (ERD)
-git 
 
 ```mermaid
 erDiagram
@@ -138,7 +137,25 @@ erDiagram
 
 ---
 
-## 3. Akun Demo untuk Pengujian & Demo
+## 3. Screenshots / Tampilan Aplikasi (Deliverables UTS)
+
+Berikut adalah beberapa tangkapan layar antarmuka utama dan proses transaksi pada aplikasi:
+
+### 1. Dashboard Operasional (Admin)
+![Dashboard Admin](public/screenshots/dashboard-admin.png)
+
+### 2. Form Transaksi Pembelian (Stock-In)
+![Form Pembelian](public/screenshots/form-transaksi-pembelian.png)
+
+### 3. Detail Transaksi Pembelian Berhasil & Stok Bertambah
+![Detail Pembelian](public/screenshots/detail-transaksi-pembelian.png)
+
+### 4. Dashboard Operasional (Staff)
+![Dashboard Staff](public/screenshots/dashboard-staff.png)
+
+---
+
+## 4. Akun Demo untuk Pengujian & Demo
 
 | Role | Alamat Email | Password | Hak Akses |
 | :--- | :--- | :--- | :--- |
@@ -150,7 +167,7 @@ erDiagram
 
 ---
 
-## 4. Instalasi Langkah Demi Langkah (Reproducible Setup)
+## 5. Instalasi Langkah Demi Langkah (Reproducible Setup)
 
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi pada environment lokal (XAMPP / PHP & MySQL):
 
@@ -197,7 +214,7 @@ Aplikasi dapat diakses melalui browser di: `http://127.0.0.1:8000`
 
 ---
 
-## 5. Pengujian Otomatis (Automated Testing)
+## 6. Pengujian Otomatis (Automated Testing)
 
 Aplikasi dilengkapi dengan 8 skenario pengujian unit & feature test sesuai spesifikasi *Slide 19*:
 
@@ -217,7 +234,7 @@ php artisan test
 
 ---
 
-## 6. Persiapan Wawancara Pemilik Kode (Code Interview - Slide 24)
+## 7. Persiapan Wawancara Pemilik Kode (Code Interview - Slide 24)
 
 Berikut ringkasan jawaban teknis untuk pertanyaan umum yang diuji oleh dosen:
 
@@ -247,6 +264,6 @@ Berikut ringkasan jawaban teknis untuk pertanyaan umum yang diuji oleh dosen:
 
 ---
 
-## 7. Known Limitations
+## 8. Known Limitations
 * Pembayaran diasumsikan tunai langsung/selesai di tempat (tidak terintegrasi payment gateway pihak ketiga).
 * Sistem dirancang untuk satu gudang pusat (single warehouse).
