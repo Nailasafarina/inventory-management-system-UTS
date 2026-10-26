@@ -33,8 +33,7 @@ Aplikasi ini dikembangkan untuk memecahkan kendala pada usaha distribusi dan rit
 ---
 
 ## 2. Entity Relationship Diagram (ERD)
-
-![Entity Relationship Diagram (ERD)](docs/erd-tugas-uts.drawio.png)
+git 
 
 ```mermaid
 erDiagram
